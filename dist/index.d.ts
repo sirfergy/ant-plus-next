@@ -5,6 +5,7 @@ export { DebugOptions } from "./types/debugOptions";
 export { PairedDevice } from "./types/pairedDevice";
 export { SendCallback } from "./types/sendCallback";
 export { USBDriverBase } from "./types/usbDriverBase";
+export { Messages } from "./utils/messages";
 export { HeartRateScanner, HeartRateSensor, HeartRateScanState, HeartRateSensorState } from "./sensors/heartRate/index.js";
 export { StrideSpeedDistanceScanner, StrideSpeedDistanceSensor, StrideSpeedDistanceScanState, StrideSpeedDistanceSensorState } from "./sensors/strideSpeedDistance/index.js";
 export { SpeedCadenceScanner, SpeedCadenceSensor, SpeedCadenceScanState, SpeedCadenceSensorState } from "./sensors/speedCadence/index.js";
