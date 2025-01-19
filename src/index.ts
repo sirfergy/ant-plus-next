@@ -7,6 +7,8 @@ export { PairedDevice } from "./types/pairedDevice";
 export { SendCallback } from "./types/sendCallback";
 export { USBDriverBase } from "./types/usbDriverBase";
 
+export { Messages } from "./utils/messages";
+
 // Common sensors that can be used in both environments (e.g., Node.js and browser).
 export { HeartRateScanner, HeartRateSensor, HeartRateScanState, HeartRateSensorState } from "./sensors/heartRate/index.js";
 export { StrideSpeedDistanceScanner, StrideSpeedDistanceSensor, StrideSpeedDistanceScanState, StrideSpeedDistanceSensorState } from "./sensors/strideSpeedDistance/index.js";
